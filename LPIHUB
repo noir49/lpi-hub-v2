@@ -1,0 +1,249 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local LPIadmin = Instance.new("TextButton")
+local Illuminator = Instance.new("TextButton")
+local name = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local infy = Instance.new("TextButton")
+local gigafart = Instance.new("TextButton")
+local clody = Instance.new("TextButton")
+local LPImenu = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 0.400
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.0900750682, 0, 0.305595398, 0)
+Frame.Size = UDim2.new(0, 273, 0, 199)
+
+LPIadmin.Name = "LPIadmin "
+LPIadmin.Parent = Frame
+LPIadmin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LPIadmin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LPIadmin.Position = UDim2.new(0.0381407142, 0, 0.442892879, 0)
+LPIadmin.Size = UDim2.new(0, 119, 0, 41)
+LPIadmin.Font = Enum.Font.SourceSans
+LPIadmin.Text = "LPI admin"
+LPIadmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+LPIadmin.TextSize = 14.000
+LPIadmin.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/jurylmao/LPIAdmin/refs/heads/main/Script.lua'))()
+end)
+
+
+Illuminator.Name = "Illuminator"
+Illuminator.Parent = Frame
+Illuminator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Illuminator.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Illuminator.Position = UDim2.new(0.0381407142, 0, 0.175221503, 0)
+Illuminator.Size = UDim2.new(0, 119, 0, 41)
+Illuminator.Font = Enum.Font.SourceSans
+Illuminator.Text = "illuminator"
+Illuminator.TextColor3 = Color3.fromRGB(0, 0, 0)
+Illuminator.TextSize = 14.000
+Illuminator.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/PSBSvXpD'))()
+end)
+
+name.Name = "name"
+name.Parent = Frame
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+name.Size = UDim2.new(0, 273, 0, 26)
+name.Font = Enum.Font.SourceSans
+name.Text = "LPI HUB"
+name.TextColor3 = Color3.fromRGB(0, 0, 0)
+name.TextSize = 24.000
+name.TextStrokeTransparency = 0.000
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.895115674, 0, 0, 0)
+Close.Size = UDim2.new(0, 28, 0, 26)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 4)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+infy.Name = "infy"
+infy.Parent = Frame
+infy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infy.Position = UDim2.new(0.524134815, 0, 0.182598174, 0)
+infy.Size = UDim2.new(0, 119, 0, 40)
+infy.Font = Enum.Font.SourceSans
+infy.Text = "infinite yield"
+infy.TextColor3 = Color3.fromRGB(0, 0, 0)
+infy.TextSize = 14.000
+infy.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+gigafart.Name = "gigafart"
+gigafart.Parent = Frame
+gigafart.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gigafart.BorderColor3 = Color3.fromRGB(0, 0, 0)
+gigafart.Position = UDim2.new(0.524134815, 0, 0.44277969, 0)
+gigafart.Size = UDim2.new(0, 119, 0, 41)
+gigafart.Font = Enum.Font.SourceSans
+gigafart.Text = "gigafart"
+gigafart.TextColor3 = Color3.fromRGB(0, 0, 0)
+gigafart.TextSize = 14.000
+gigafart.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/LPIAlpha", true))()
+end)
+
+clody.Name = "clody"
+clody.Parent = Frame
+clody.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+clody.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clody.Position = UDim2.new(0.0369553342, 0, 0.708104253, 0)
+clody.Size = UDim2.new(0, 119, 0, 41)
+clody.Font = Enum.Font.SourceSans
+clody.Text = "inf clody gui"
+clody.TextColor3 = Color3.fromRGB(0, 0, 0)
+clody.TextSize = 14.000
+clody.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bobrocks12330/Clody/refs/heads/main/updated.lua"))()
+end)
+
+LPImenu.Name = "LPImenu"
+LPImenu.Parent = Frame
+LPImenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LPImenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LPImenu.Position = UDim2.new(0.524134815, 0, 0.710586607, 0)
+LPImenu.Size = UDim2.new(0, 119, 0, 41)
+LPImenu.Font = Enum.Font.SourceSans
+LPImenu.Text = "LPI menu"
+LPImenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+LPImenu.TextSize = 14.000
+LPImenu.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bobrocks12330/Lpi-script-yeild/refs/heads/main/Script'sParty", true))()
+end)
+
+-- Scripts:
+
+local function MEAM_fake_script() -- name.RainbowText 
+	local script = Instance.new('Script', name)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	while true do
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,k/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255,k/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+	k = k + add
+	wait()
+	end
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	end
+end
+coroutine.wrap(MEAM_fake_script)()
+local function HVRE_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(HVRE_fake_script)()
+local function QDRXJ_fake_script() -- Frame.UIDrag 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- Made by Real_IceyDev (@lceyDex) --
+	-- Simple UI dragger (PC Only/Any device that has a mouse) --
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(QDRXJ_fake_script)()
